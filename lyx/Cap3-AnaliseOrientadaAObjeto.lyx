@@ -1,0 +1,1790 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package %dummy
+\inputencoding latin1
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement p
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Análise Orientada a Objeto} 
+\backslash
+rhead{} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+AOO
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+AOO
+\end_layout
+
+\end_inset
+
+ -- Análise Orientada a Objeto
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Análise orientada a objeto
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:AOO"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diagramas de classes
+\end_layout
+
+\begin_layout Standard
+O diagrama de classes é apresentado na Figura 4.1 e Figura 4.2.
+ Por ser muito grande, o mesmo foi particionado em 6 imagens que estão listadas
+ abaixo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/1.2
+	lyxscale 110
+	scale 120
+	scaleBeforeRotation
+	BoundingBox 0bp 0bp 300bp 300bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de classes geral - Parte A.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/1.1
+	lyxscale 110
+	scale 150
+	scaleBeforeRotation
+	BoundingBox 0bp 0bp 300bp 400bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de classes geral - Parte B.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/1.png
+	lyxscale 110
+	scale 55
+	scaleBeforeRotation
+	BoundingBox 0bp 0bp 800bp 400bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de classes - Parte 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/2.png
+	lyxscale 110
+	scale 55
+	scaleBeforeRotation
+	BoundingBox 0bp 0bp 800bp 600bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de classes -Parte 2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/3.png
+	lyxscale 110
+	scale 55
+	scaleBeforeRotation
+	BoundingBox 0bp 0bp 800bp 400bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de classes, CFluidoGas.
+ Parte 3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/4.png
+	lyxscale 110
+	scale 50
+	scaleBeforeRotation
+	BoundingBox 0bp 0bp 1000bp 800bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de classes, CFluidoGas.
+ Parte 4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/5.png
+	lyxscale 110
+	scale 55
+	scaleBeforeRotation
+	BoundingBox 0bp 0bp 800bp 450bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de classes, CFluidoGas.
+ Parte 5
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/6.png
+	lyxscale 110
+	scale 60
+	scaleBeforeRotation
+	BoundingBox 0bp 0bp 400bp 500bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de classes, CFluidoGas.
+ Parte 6
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Dicionário de classes
+\end_layout
+
+\begin_layout Itemize
+Classe CFluido: representa a classe onde há atributos e métodos semelhantes
+ tanto ao óleo quanto ao gás.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo compressibilidade: representa a compressibilidade tanto do óleo
+ quanto do gás.
+\end_layout
+
+\begin_layout Itemize
+atributo fatorVolFormacao: representa o fator volume formação tanto do óleo
+ quanto do gás.
+\end_layout
+
+\begin_layout Itemize
+atributo viscosidade: representa a viscosidade tanto do óleo quanto do gás.
+\end_layout
+
+\begin_layout Itemize
+método Compressibilidade: representa o método que calcula a compressibilidade
+ ou do gás ou do óleo a partir dos dados fornecidos pelo usuário.
+\end_layout
+
+\begin_layout Itemize
+método FatorVolFormacao: representa o método que calcula o Fator Volume
+ Formação ou do gás ou do óleo a partir dos dados fornecidos pelo usuário.
+ 
+\end_layout
+
+\begin_layout Itemize
+método Viscosidade: representa o método que calcula a Viscosidade ou do
+ gás ou do óleo a partir dos dados fornecidos pelo usuário.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CFluidoOleoGas: representa a classe onde há atributos e métodos caracterí
+sticos ao óleo e ao gás presentes no reservatório e/ou na superfície.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo pressaoBolha: representa a pressão de bolha do óleo, (Psia).
+\end_layout
+
+\begin_layout Itemize
+atributo razaoSolubilidade: representa a razão de solubilidade do óleo.
+\end_layout
+
+\begin_layout Itemize
+atributo densidadeGasSup: representa a densidade do gás na superfície.
+\end_layout
+
+\begin_layout Itemize
+atributo massaEspOleo: representa a massa específica do óleo.
+\end_layout
+
+\begin_layout Itemize
+método Compressibilidade: representa o método que calcula a compressibilidade
+ do óleo a partir dos dados fornecidos pelo usuário.
+\end_layout
+
+\begin_layout Itemize
+método FatorVolFormacao: representa o método que calcula o Fator Volume
+ Formação do óleo a partir dos dados fornecidos pelo usuário.
+ 
+\end_layout
+
+\begin_layout Itemize
+método Viscosidade: representa o método que calcula a Viscosidade do óleo
+ a partir dos dados fornecidos pelo usuário.
+\end_layout
+
+\begin_layout Itemize
+método PressaoBolha: representa o método que calcula a pressão de bolha
+ do óleo a partir dos dados fornecidos pelo usuário.
+\end_layout
+
+\begin_layout Itemize
+método RazaoSolubilidade: representa o método que calcula a razão de solubilidad
+e do óleo a partir dos dados fornecidos pelo usuário.
+\end_layout
+
+\begin_layout Itemize
+método DensidadeGasSup: representa o método que calcula a densidade do gás
+ na superfície a partir dos dados fornecidos pelo usuário.
+\end_layout
+
+\begin_layout Itemize
+método MassaEspOleo: representa o método que calcula a massa específica
+ do óleo a partir dos dados fornecidos pelo usuário.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CCompressibilidade: Classe agregada à classe CFluidoOleoGas, representa
+ uma classe base onde são encontrados alguns atributos necessários ao cálculo
+ da compressibilidade do óleo.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo pressao: representa a pressão do óleo, (Psia).
+\end_layout
+
+\begin_layout Itemize
+atributo pressaoBolha: representa a pressão de bolha do óleo, (Psia).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CCompressibilidadeMaiorPB_Setal: Classe herdeira da classe CCompressibili
+dade, representa uma classe onde são encontrados alguns atributos, além
+ dos herdados da classe base, necessários ao cálculo da compressibilidade
+ do óleo, acima da pressão de bolha, utilizando o método de Spivey, John
+ e Valko, Peter e McCain, William.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo rsb: razão de solubilidade no ponto de bolha(scf/STB).
+\end_layout
+
+\begin_layout Itemize
+atributo gammagSP: representa a densidade do gás no separador.
+\end_layout
+
+\begin_layout Itemize
+atributo TR: representa a Temperatura do reservatório, (°F).
+\end_layout
+
+\begin_layout Itemize
+atributo API: densidade óleo, grau API, (°API).
+\end_layout
+
+\begin_layout Itemize
+método CompressibilidadeMaiorPB_Setal: calcula a compressibilidade do óleo,
+ acima da pressão de bolha, utilizando o método de Spivey, John e Valko,
+ Peter e McCain, William.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CCompressibilidadeMaiorPB_WB: Classe herdeira da classe CCompressibilidad
+e, representa uma classe onde são encontrados alguns atributos, além dos
+ herdados da classe base, necessários ao cálculo da compressibilidade do
+ óleo, acima da pressão de bolha, utilizando o método de Whitson, C.H.
+ e Brulé, M.R.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo rhoob: representa a massa específica do óleo na pressão de bolha
+ (lb/ cu ft).
+\end_layout
+
+\begin_layout Itemize
+método CompressibilidadeMaiorPB_WB: calcula a compressibilidade do óleo
+ em pressões de reservatório maiores que a pressão de bolha utilizando o
+ método de Whitson, C.H.
+ e Brulé, M.R.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CCompressibilidadeMenorPB: Classe herdeira da classe CCompressibilidade,
+ representa uma classe onde são encontrados alguns atributos, além dos herdados
+ da classe base, necessários ao cálculo da compressibilidade do óleo, menores
+ ou igual a pressão de bolha, utilizando o método de Ahmed, T.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo rsb: razão de solubilidade no ponto de bolha(scf/STB).
+\end_layout
+
+\begin_layout Itemize
+atributo t: temperatura do óleo (°F).
+\end_layout
+
+\begin_layout Itemize
+atributo API: densidade óleo, grau API, (°API).
+\end_layout
+
+\begin_layout Itemize
+método CompressibilidadeMenorPB: calcula a compressibilidade isotérmica
+ do óleo em pressões de reservatório menores ou igual a pressão de bolha
+ utilizando o método de Ahmed, T.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CFatorVolFormacao: Classe agregada à classe CFluidoOleoGas, representa
+ uma classe base onde são encontrados alguns atributos necessários ao cálculo
+ do Fator Volume Formação do óleo.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo gammag: densidade do gás em uma determinada pressão e temperatura
+ (p, T).
+\end_layout
+
+\begin_layout Itemize
+atributo gammaSTO: densidade do óleo em uma determinada pressão e temperatura
+ (p, T).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CFatorVolFormacao_AM: Classe herdeira da classe CFatorVolFormacao,
+ representa uma classe onde são encontrados alguns atributos, além dos herdados
+ da classe base, necessários ao cálculo do Fator volume Formação do óleo,
+ em pressões menores ou igual ao da pressão de bolha, utilizando o método
+ de Al-Marhoun, M.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo rs: razão de solubilidade do óleo (scf/STB).
+\end_layout
+
+\begin_layout Itemize
+atributo t: Temperatura (°F).
+\end_layout
+
+\begin_layout Itemize
+método FatorVolFormacao_AM: calcula o fator volume formação do óleo em pressões
+ de reservatório menor e igual a pressão de bolha, utilizando o método de
+ Al-Marhoun, M.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CFatorVolFormacao_McC: Classe herdeira da classe CFatorVolFormacao,
+ representa uma classe onde são encontrados alguns atributos, além dos herdados
+ da classe base, necessários ao cálculo do Fator volume Formação do óleo,
+ em pressões maiores pressão de bolha, utilizando o método de McCain, W.D.
+ e Spivey, J.P.
+ e Lenn, C.P.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo rs: razão de solubilidade do óleo (scf/STB).
+\end_layout
+
+\begin_layout Itemize
+atributo muo: massa específica do óleo nas condições p,T.
+\end_layout
+
+\begin_layout Itemize
+método FatorVolFormacao_McC: calcula o fator volume formação do óleo em
+ pressões de reservatório maiores que a pressão de bolha, utilizando o método
+ apresentado por McCain, W.D.
+ e Spivey, J.P.
+ e Lenn, C.P.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CFatorVolFormacao_GEF: Classe herdeira da classe CFatorVolFormacao,
+ representa uma classe onde são encontrados alguns atributos, além dos herdados
+ da classe base, necessários ao cálculo do Fator volume Formação do óleo,
+ em pressões maiores pressão de bolha, utilizando o método %apresentado
+ por GE, Petrosky and Farshad, FF.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo rsb: razão de solubilidade do óleo no ponto de bolha (scf/STB).
+\end_layout
+
+\begin_layout Itemize
+atributo tr: Temperatura de reservatório(°F) .
+\end_layout
+
+\begin_layout Itemize
+atributo p: pressão atual(psia).
+\end_layout
+
+\begin_layout Itemize
+atributo pb: pressão de bolha(psia).
+\end_layout
+
+\begin_layout Itemize
+método FatorVolFormacao_GEF: calcula o fator volume formação do óleo em
+ pressões de reservatório maiores que a pressão de bolha, utilizando o método
+ apresentado por GE, Petrosky e Farshad, FF.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CFatorVolFormacao_AH: Classe herdeira da classe CFatorVolFormacao,
+ representa uma classe onde são encontrados alguns atributos, além dos herdados
+ da classe base, necessários ao cálculo do Fator volume Formação do óleo,
+ a uma pressão menor ou igual à pressão de bolha, utilizando o método de
+ Ahmed, T.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+método FatorVolFormacao_AH: calcula o fator volume formação do óleo em pressões
+ de reservatório menor e igual a pressão de bolha, utilizando o método apresenta
+do por Ahmed, T.
+\end_layout
+
+\begin_layout Itemize
+atributo gammaSTO: densidade do óleo em uma determinada pressão e temperatura
+ (p, T).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CRazaoSolubilidade: Classe agregada à classe CFluidoOleoGas, representa
+ uma classe base onde são encontrados alguns atributos necessários ao cálculo
+ da Razão de Solubilidade do óleo.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo gammag: densidade do gas no separador.
+\end_layout
+
+\begin_layout Itemize
+atributo p: pressão em que ser quer calcular a razão de solibilidade, (psia).
+\end_layout
+
+\begin_layout Itemize
+atributo pb: Pressão de bolha (Psia).
+\end_layout
+
+\begin_layout Itemize
+atributo t: temperatura em que ser quer calcular a razão de solibilidade,
+ (°F).
+\end_layout
+
+\begin_layout Itemize
+atributo API: densidade óleo, grau API, (°API).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CRazaoSolubilidade_PF: Classe herdeira da classe CRazaoSolubilidade,
+ representa uma classe onde são encontrados alguns atributos, além dos herdados
+ da classe base, necessários ao cálculo do Fator volume Formação do óleo,
+ em pressões menores que a pressão de bolha, utilizando o método de Petrosky,
+ G.
+ E., e F.
+ Farshad.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+método RazaoSolubilidade_PF: calcula a razão de solubilidade gás-óleo, para
+ pressão menores que a pressão de bolha, utilizando o método de Petrosky,
+ G.
+ E., e F.
+ Farshad.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CRazaoSolubilidade_VB: Classe herdeira da classe CRazaoSolubilidade,
+ representa uma classe onde são encontrados alguns atributos, além dos herdados
+ da classe base, necessários ao cálculo do Fator volume Formação do óleo,
+ em pressões menores que a pressão de bolha, utilizando o método de Petrosky,
+ G.
+ E., e F.
+ Farshad.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo psp: pressão no separador, (psia).
+\end_layout
+
+\begin_layout Itemize
+atributo tsa: Temperatura no separador, (°F).
+\end_layout
+
+\begin_layout Itemize
+método RazaoSolubilidade_VB: calcula a razão de solubilidade gás-óleo, para
+ pressão menores que a pressão de bolha, utilizando o método de Vazquez,
+ M.
+ e Beggs, H.D..
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CPressaoBolha: Classe agregada à classe CFluidoOleoGas, representa
+ uma classe base onde são encontrados alguns atributos necessários ao cálculo
+ da Pressão de Bolha do óleo.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo gammagSP: densidade do gas no separador.
+\end_layout
+
+\begin_layout Itemize
+atributo rsp: razão de solubilidade no separador(scf/STB).
+\end_layout
+
+\begin_layout Itemize
+atributo tr: Temperatura do reservatório (°F).
+\end_layout
+
+\begin_layout Itemize
+atributo API: densidade óleo, grau API, (°API).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CPressaoBolha_SM: Classe herdeira da classe CRazaoSolubilidade, represent
+a uma classe onde são encontrados alguns atributos, além dos herdados da
+ classe base, necessários ao cálculo da pressão de bolha do óleo através
+ da a correlação de Standing, M.B..
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+método PressaoBolha_SM: Função para estimar a pressão de bolha do óleo utilizand
+o a correlação de Standing, M.B.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CPressaoBolha_VA: Classe herdeira da classe CRazaoSolubilidade, represent
+a uma classe onde são encontrados alguns atributos, além dos herdados da
+ classe base, necessários ao cálculo da pressão de bolha do óleo através
+ do método de Valko.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+método PressaoBolha_VA: Função para estimar a pressão de bolha do óleo utilizand
+o o método de Valko.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CMassaEspecifica: Classe agregada à classe CFluidoOleoGas, representa
+ uma classe base onde são encontrados alguns atributos necessários ao cálculo
+ da massa específica do óleo.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo gammag: densidade do gás em uma determinada pressão e temperatura
+ (p, T).
+\end_layout
+
+\begin_layout Itemize
+atributo gammaSTO: densidade do óleo em uma determinada pressão e temperatura
+ (p, T).
+\end_layout
+
+\begin_layout Itemize
+atributo p: pressão em que ser quer calcular a massa específica, (psia).
+\end_layout
+
+\begin_layout Itemize
+atributo pb: Pressão de bolha (Psia).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CMassaEspecifica_PF: Classe herdeira da classe CRazaoSolubilidade,
+ representa uma classe onde são encontrados alguns atributos, além dos herdados
+ da classe base, necessários ao cálculo da massa específica do óleo, em
+ pressões maiores que a pressão de bolha, utilizando o método proposto por
+ GE, P.
+ & Farshad, F.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo rsb: razão gás-óleo no ponto de bolha , scf/STB.
+\end_layout
+
+\begin_layout Itemize
+atributo tr: temperatura do reservatório em °F
+\end_layout
+
+\begin_layout Itemize
+método MassaEspecifica_PF: função calcula a massa específica do óleo em
+ pressões maiores que a pressão de bolha , utilizando o método proposto
+ por GE, P.
+ & Farshad, F.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CMassaEspecifica_ST: Classe herdeira da classe CRazaoSolubilidade,
+ representa uma classe onde são encontrados alguns atributos, além dos herdados
+ da classe base, necessários ao cálculo da massa específica do óleo, em
+ pressões menores e igual a pressão de bolha, utilizando o método proposto
+ por Standing, M.B.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo rs: razão gás-óleo, scf/STB.
+\end_layout
+
+\begin_layout Itemize
+atributo tr: temperatura do reservatório em °F
+\end_layout
+
+\begin_layout Itemize
+método MassaEspecifica_ST: A função cálcula a massa específica do óleo em
+ pressões menores e igual a pressão de bolha , utilizando o método proposto
+ por Standing, M.B.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CMassaEspecifica_MH: Classe herdeira da classe CRazaoSolubilidade,
+ representa uma classe onde são encontrados alguns atributos, além dos herdados
+ da classe base, necessários ao cálculo da massa específica do óleo, na
+ pressão de bolha e em pressões menores que a pressão de bolha, utilizando
+ o método proposto por McCain, Jr, W.
+ and Hill, N.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo rsb: razão gás-óleo na pressão de bolha, scf/STB.
+\end_layout
+
+\begin_layout Itemize
+atributo t: temperatura em °F.
+\end_layout
+
+\begin_layout Itemize
+atributo co: Compressibilidade do óleo.
+\end_layout
+
+\begin_layout Itemize
+atributo gammagSP: densidade do gas no separador.
+\end_layout
+
+\begin_layout Itemize
+método MassaEspecifica_MH: estimar a massa específica do óleo em pressões
+ maiores que a pressão de bolha, utilizando o método de McCain e Hill junto
+ com a compressibilidade do óleo.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CViscosidadeOleoSat_AKM: Classe agregada à classe CFluidoOleoGas,
+ representa uma classe base onde são encontrados alguns atributos necessários
+ ao cálculo da viscosidade do óleo.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo roob: massa específica do óleo na pressão de bolha, (lb/ cu ft).
+\end_layout
+
+\begin_layout Itemize
+método ViscosidadeOleoSat_AKM: calcula a viscosidade de óleos saturados
+ pelo métode de Abu-Khamsin, A.
+ e Al-Marhoun,M.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CViscosidadeOleoSat_BR: Classe agregada à classe CFluidoOleoGas,
+ representa uma classe base onde são encontrados alguns atributos necessários
+ ao cálculo da viscosidade do óleo.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo miod: viscosidade do óleo morto (cp);
+\end_layout
+
+\begin_layout Itemize
+atributo rs: razão de solubilidade (scf/STB);
+\end_layout
+
+\begin_layout Itemize
+método ViscosidadeOleoSat_BR: calcula a viscosidade de óleos saturados pelo
+ métode de Beggs, HD and Robinson, JR.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CFluidoGas: representa a classe onde há atributos e métodos característic
+os ao gás presentes no reservatório.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo propPseudocriticas: representa o atributos das propriedades pseudocríti
+cas do gás.
+\end_layout
+
+\begin_layout Itemize
+atributo fatorCompZ: representa o fator de compressibilidade (Z) do gás.
+\end_layout
+
+\begin_layout Itemize
+método Compressibilidade: representa o método que calcula a compressibilidade
+ do ógás a partir dos dados fornecidos pelo usuário.
+\end_layout
+
+\begin_layout Itemize
+método FatorVolFormacao: representa o método que calcula o Fator Volume
+ Formação do gás a partir dos dados fornecidos pelo usuário.
+ 
+\end_layout
+
+\begin_layout Itemize
+método Viscosidade: representa o método que calcula a Viscosidade do gás
+ a partir dos dados fornecidos pelo usuário.
+\end_layout
+
+\begin_layout Itemize
+método PropPseudocriticas: representa o método que calcula as propriedades
+ pseudocríticas do gás a partir dos dados fornecidos pelo usuário.
+\end_layout
+
+\begin_layout Itemize
+método fatorCompZ: representa o método que calcula o fator de compressibilidade
+ (Z) do gás a partir dos dados fornecidos pelo usuário.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CPropPseudocriticas: Classe agregada à classe CFluidoGas, representa
+ uma classe base onde são encontrados alguns atributos necessários ao cálculo
+ das propriedades pseudocríticas do Gás.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo gammag: densidade do gás em uma determinada pressão e temperatura
+ (p, T).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CPropPseudocriticas_ST: Classe herdeira da classe CPropPseudocriticas,
+ representa uma classe onde são encontrados alguns atributos, além dos herdados
+ da classe base, necessários ao cálculo das propriedades pseudocríticas
+ do Gás.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo tpc: Temperatura pseudocrítica do gás °R.
+\end_layout
+
+\begin_layout Itemize
+atributo ppc: Pressão pseudocrítica do gás, Psia.
+\end_layout
+
+\begin_layout Itemize
+atributo tipoDeGas: Especificar se o gás é úmido ou seco.
+\end_layout
+
+\begin_layout Itemize
+método PropPseudocriticas_ST: estimar as propriedades pseudocríticas do
+ gás.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CPropPseudocriticas_Piper: Classe herdeira da classe CPropPseudocriticas,
+ representa uma classe onde são encontrados alguns atributos, além dos herdados
+ da classe base, necessários ao cálculo das propriedades pseudocríticas
+ do Gás com contaminates utilizando método - Piper et Al.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo tpcc: temperatura pseudo-crítica com correção de contaminates (°R)
+\end_layout
+
+\begin_layout Itemize
+atributo ppcc: pressão pseudo-crítica com correção de contaminates (psia)
+\end_layout
+
+\begin_layout Itemize
+atributo yN2: porcentagem de N2 (ex: 35% entre com 0.35).
+ 
+\end_layout
+
+\begin_layout Itemize
+atributo yH2S: porcentagem de H2S.
+\end_layout
+
+\begin_layout Itemize
+atributo yCO2: pocentagem de CO2.
+\end_layout
+
+\begin_layout Itemize
+atributo PcN2: pressão crítica do N2 (psia).
+\end_layout
+
+\begin_layout Itemize
+atributo PcH2S: pressão crítica do H2S (psia).
+\end_layout
+
+\begin_layout Itemize
+atributo PcCO2: pressão crítica do CO2 (psia).
+\end_layout
+
+\begin_layout Itemize
+atributo TcN2: Temperatura crítica de N2 (°R).
+ 
+\end_layout
+
+\begin_layout Itemize
+atributo TcH2S: Temperatura crítica de H2S (°R).
+\end_layout
+
+\begin_layout Itemize
+atributo TcCO2: Temperatura crítica de CO2 (°R).
+\end_layout
+
+\begin_layout Itemize
+método PropPseudocriticas_Piper: Correção para calcular as propriedades
+ pseudocríticas de gases com contaminates utilizando método - Piper et Al.
+ Este método correlaciona as Propriedade de pseudocríticas do gás com a
+ densidade do gás, porcentagem de contaminantes, e temperatura e pressão
+ crítica dos contaminantes.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CPropPseudocriticas_WA: Classe herdeira da classe CPropPseudocriticas_Pip
+er, representa uma classe onde são encontrados alguns atributos, além dos
+ herdados da classe base, necessários ao cálculo das propriedades pseudocríticas
+ do Gás com contaminates utilizando método de Wichert & Aziz.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo tipodegas: Especificar se o gás é úmido ou seco.
+\end_layout
+
+\begin_layout Itemize
+método PropPseudocriticas_WA: Correção para calcular as propriedades pseudocríti
+cas de gases com contaminates utilizando método de Wichert & Aziz.
+ Este método correlaciona as Propriedade de pseudocríticas do gás com a
+ densidade do gás, porcentagem de contaminantes.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CPropPseudocriticas_CKB: Classe herdeira da classe CPropPseudocriticas_Pi
+per, representa uma classe onde são encontrados alguns atributos, além dos
+ herdados da classe base, necessários ao cálculo das propriedades pseudocríticas
+ do Gás com contaminates utilizando método de Carr-Kobayashi-Burrows.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo tipodegas: Especificar se o gás é úmido ou seco.
+\end_layout
+
+\begin_layout Itemize
+método PropPseudocriticas_CKB: Correção para calcular as propriedades pseudocrít
+icas de gases com contaminates utilizando método de Carr-Kobayashi-Burrows.
+ Este método correlaciona as Propriedade de pseudocríticas do gás com a
+ densidade do gás, porcentagem de contaminantes.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CFatorCompZ: Classe agregada à classe CFluidoGas, representa uma
+ classe base onde são encontrados alguns atributos necessários ao cálculo
+ do fator de compressibilidade (Z) do Gás.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+atributo ppr: pressão pseudo-reduzida.
+\end_layout
+
+\begin_layout Itemize
+atributo tpr: temperatura pseudo-reduzida.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CFatorCompZ_BeB: Classe herdeira da classe CFatorCompZ, representa
+ uma classe onde são encontrados alguns atributos, além dos herdados da
+ classe base, necessários ao cálculo do fator de compressibilidade (Z) do
+ Gás.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+método FatorCompZ_BeB: extima o valor do fator de compressibilidade gás
+ Z com ppr e tpr utilizando o método apresentado po Brill e Beggs.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CFatorCompZ_Lond: Classe herdeira da classe CFatorCompZ, representa
+ uma classe onde são encontrados alguns atributos, além dos herdados da
+ classe base, necessários ao cálculo do fator de compressibilidade (Z) do
+ Gás.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+método FatorCompZ_Lond: extima o valor do fator de compressibilidade gás
+ Z com ppr e tpr utilizando o método apresentado por Londono et al
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classe CFatorCompZ_DeK: Classe herdeira da classe CFatorCompZ, representa
+ uma classe onde são encontrados alguns atributos, além dos herdados da
+ classe base, necessários ao cálculo do fator de compressibilidade (Z) do
+ Gás.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+método FatorCompZ_DeK: extima o valor do fator de compressibilidade gás
+ Z com ppr e tpr utilizando o método apresentado por Dranchuk and Abou-Kassem.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+método FatorCompZ_HeY: Classe herdeira da classe CFatorCompZ, representa
+ uma classe onde são encontrados alguns atributos, além dos herdados da
+ classe base, necessários ao cálculo do fator de compressibilidade (Z) do
+ Gás.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+método FatorCompZ_HeY: extima o valor do fator de compressibilidade gás
+ Z com ppr e tpr utilizando o método apresentado por Hall-Yarborough.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Diagrama de seqüência -- eventos
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Eventos
+\end_layout
+
+\end_inset
+
+ e mensagens
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Mensagens
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Diagrama de sequência
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:diagrama de sequência"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Diagrama de Sequência geral
+\end_layout
+
+\begin_layout Standard
+Veja o 
+\shape italic
+\emph on
+diagrama de seqüência geral na
+\shape default
+\emph default
+ Figura 4.9.
+ Mostra a sequência de passos que o usuário deve realizar para que se possar
+ calcular uma determinada propriedade da biblioteca de CORRELAÇÕES PVT.
+ 
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/sequence diagram.png
+	lyxscale 110
+	scale 70
+	scaleBeforeRotation
+	BoundingBox 500bp 0bp 75bp 400bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de sequência-geral.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Diagrama de Sequência específico
+\end_layout
+
+\begin_layout Standard
+Veja o 
+\shape italic
+\emph on
+diagrama de seqüência específico na
+\shape default
+\emph default
+ Figura 4.10.
+ Mostra umaa sequência específica de passos para que o usuário calcule a
+ massa específica do óleo utilizando o método proposto por McCain, Jr, W.
+ and Hill, N.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/sequencia_especifico_especifico.png
+	lyxscale 110
+	scale 55
+	scaleBeforeRotation
+	BoundingBox 0bp 0bp 800bp 300bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de sequência específico
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diagrama de comunicação
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+comunicação
+\end_layout
+
+\end_inset
+
+ -- colaboração
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+colaboração
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Diagrama-de-Comunicação"
+
+\end_inset
+
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Diagrama de colaboração
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Diagrama-de-colaboração:"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+No diagrama de comunicação o foco é a interação e a troca de mensagens e
+ dados entre os objetos.
+ 
+\end_layout
+
+\begin_layout Standard
+Veja na Figura 4.11 o diagrama de comunicação.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/collaboration diagram.bmp
+	lyxscale 110
+	scale 75
+	scaleBeforeRotation
+	BoundingBox 0bp 0bp 400bp 300bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de comunicação.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diagrama de máquina de estado
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+estado
+\end_layout
+
+\end_inset
+
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Diagrama de máquina de estado
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:diagrama de estados"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Veja na Figura 4.12 o diagrama de máquina de estado.
+ Onde se calcula a viscosidade do gás, da classe CFluidoGas, utilizando
+ o método de Lee, A.
+ and Gonzalez, M.
+ and Eakin, B.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/estado.png
+	lyxscale 110
+	scale 55
+	scaleBeforeRotation
+	BoundingBox 0bp 0bp 900bp 300bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de máquina de estado - classe CFluidoGas - calculo-viscosidade-gas.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diagrama de atividades
+\end_layout
+
+\begin_layout Standard
+Veja na Figura 4.13 o diagrama de atividades correspondente a uma atividade
+ específica do diagrama de máguina de estado.
+ Observe que é descrito em detalhes o processo de obtenção da do Cálculo
+ do fator de compressibilidade "Z" pelo metodo apresentado por Brill e Beggs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/atividade.png
+	lyxscale 110
+	scale 65
+	scaleBeforeRotation
+	BoundingBox 0bp 0bp 400bp 400bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de atividades - Calculo-do-fator-compressibilidade-Z.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,436 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding latin1
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement ph
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Especificação} 
+\backslash
+rhead{} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Especificação
+\end_layout
+
+\begin_layout Standard
+Apresenta-se neste capítulo a concepção, a especificação do sistema a ser
+ modelado e desenvolvido.
+\end_layout
+
+\begin_layout Section
+Especificação do programa - descrição dos requisitos
+\end_layout
+
+\begin_layout Standard
+Para cada correlação é criada uma função que recebe um determinado número
+ de parâmetros referentes ao fluido e um parâmetro no qual o usuário poderá
+ escolher por qual método ele irá estimar a propriedade desejada.
+ 
+\end_layout
+
+\begin_layout Section
+Casos de uso
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Casos de uso
+\end_layout
+
+\end_inset
+
+ do Programa
+\end_layout
+
+\begin_layout Standard
+A Tabela 2.1 inclui um protótipo dos casos de uso para esse programa, mostrando
+ quais são as etapas de interação entre o usuário e o programa.
+\end_layout
+
+\begin_layout Standard
+O diagrama de casos de uso específico, especifica uma das ações do usuário.
+ Neste caso, o usuário ao acessar o software 
+\begin_inset Quotes eld
+\end_inset
+
+CORRELAÇÕES PVT
+\begin_inset Quotes erd
+\end_inset
+
+, para calcular a propriedade de sua escolha, seleciona o fluido, a seguir,
+ seleciona a propriedade que deseja calcular, caso haja mais de um método
+ para cálculo também deverá selecionar o método com a qual deseja realizar
+ o cálculo, em seguida entra com os dados necessários para o cálculo.
+ Então, o software calcula e gera um valor numérico que é exibido via tela
+ para o usuário.
+ Este, agora, realiza comparações entre o valor gerado e o valor literário
+ através da análise dos resultados gerados.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Caso de uso
+\begin_inset CommandInset label
+LatexCommand label
+name "cap:-caso-de-uso-geral (tabela)"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="block" valignment="top" width="10cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nome do caso de uso:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Correlações PVT dos fluidos óleo e gás
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Resumo/descrição:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cálculo de propriedades do gás e do óleo.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Etapas: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.
+ Definir o tipo de fluido.
+\end_layout
+
+\begin_layout Plain Layout
+2.
+ Definir a propriedade que se deseja calcular.
+\end_layout
+
+\begin_layout Plain Layout
+3.
+ Definir, se necessário, o método pelo qual se deseja calcular a propriedade.
+\end_layout
+
+\begin_layout Plain Layout
+4.
+ Entrar com os dados, via teclado.
+\end_layout
+
+\begin_layout Plain Layout
+5.
+ Receber resultado da propriedade, via tela.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cenários alternativos:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Um cenário alternativo envolve uma entrada errada do usuário (por exemplo,
+ entrar com dados negativos).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diagrama de caso de uso geral do programa
+\end_layout
+
+\begin_layout Standard
+O diagrama de caso de uso geral da Figura 2.1 mostra o usuário acessando
+ os sistemas do software e assim entrando com o valor dos atributos para
+ cálculo das propriedades do fluido de escolha.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Usuário.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de caso de uso -- Caso de uso geral.
+\begin_inset CommandInset label
+LatexCommand label
+name "cap:Diagrama-caso-uso-geral-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diagrama de caso de uso específico do programa
+\end_layout
+
+\begin_layout Standard
+O diagrama de caso de uso específico na Figura 2.2.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Imagens/casos_uso.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de caso de uso -- Caso de uso específico
+\begin_inset CommandInset label
+LatexCommand label
+name "cap:Diagrama-de-caso-de-uso-especifico:Titulo-1"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

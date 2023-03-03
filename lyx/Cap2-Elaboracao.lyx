@@ -1,0 +1,228 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage {graphicx}
+\usepackage {longtable}
+\usepackage {indentfirst}
+\renewenvironment{center}{\par\centering}{\par}
+\end_preamble
+\use_default_options false
+\master DocumentoMestre-Trabalho-ProgramacaoPratica.lyx
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding latin1
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 210mm
+\paperheight 297mm
+\leftmargin 30mm
+\topmargin 25mm
+\rightmargin 20mm
+\bottommargin 20mm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lhead{
+\backslash
+thechapter
+\backslash
+space - Elaboração} 
+\backslash
+rhead{} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Elaboração
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Elaboração
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Elaboração"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Análise de domínio
+\end_layout
+
+\begin_layout Standard
+O sistema envolve conceitos de Engenharia de Reservatórios.
+ Esses conceitos são vistos inicialmente na disciplina de Introdução à Engenhari
+a de Reservatório e tem sido aprofundados nos estudos direcionados à Pesquisa.
+\end_layout
+
+\begin_layout Standard
+As propriedades dos fluidos do reservatório, são os dados de entrada da
+ maioria dos simuladores de reservatório, ferramenta esta que é utilizada
+ para conhecer e prever o comportamento de um campo de petróleo, além disso,
+ o conhecimento das propriedades dos fluidos do reservatório é um fator
+ de grande importância no momento da criação e implementação de um projeto
+ de produção de um campo.
+\end_layout
+
+\begin_layout Standard
+As funções foram implementadas em Matlab 7.10.0 (R2010b), que apesar de ser
+ um software proprietário, possui linguagem de fácil assimilação, e com
+ pequenas adaptações, os scripts podem ser convertidos para serem utilizados
+ em softwares livres.
+\end_layout
+
+\begin_layout Standard
+Os resultados obtidos com as correlações implementadas serão comparados
+ com os exemplos tirados da literatura, para validação dos códigos.
+ Nas propriedades em que há mais de um método de correlação para se estimar
+ o seu valor, os resultados serão também comparados entre si.
+ Os resultados serão apresentados: pelo tipo de fluido (gás ou óleo) e dentro
+ de cada tipo de fluido.
+ Os resultados serão divididos por propriedades.
+\end_layout
+
+\begin_layout Section
+Identificação de pacotes -- assuntos
+\end_layout
+
+\begin_layout Itemize
+Propriedades Fluido: Englobam as classes de propriedades comuns entre os
+ fluidos, óleo e gás, presentes em um reservatório.
+ Como por exemplo: Compressibilidade, Fator volume formação e viscosidade.
+\end_layout
+
+\begin_layout Itemize
+Propriedades Gas: Englobam as propriedades relacionadas somente ao gás.
+ Como por exemplo: Propriedades pseudocríticas (temperatura e pressão pseudocrít
+icas) e fator de compressibilidade Z.
+\end_layout
+
+\begin_layout Itemize
+Propriedades OleoGás: Pacote que englobam as propriedades relacionadas concomita
+ntemente ao óleo e ao gás.
+ Como por exemplo: Pressão de bolha, Razão de solubilidade, Densidade dos
+ gases em superfície e Massa específica do óleo.
+\end_layout
+
+\begin_layout Section
+Diagrama de pacotes -- assuntos
+\end_layout
+
+\begin_layout Standard
+O diagrama de pacotes a seguir apresenta os principais assuntos abordados
+ no programa.
+ Veja Figura 3.1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing onehalf
+\align center
+\begin_inset Graphics
+	filename ../Imagens/Diagrama de pacotes.png
+	lyxscale 125
+	scale 90
+	BoundingBox 0bp 0bp 850bp 283bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama de Pacotes - CORRELACOES PVT.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
